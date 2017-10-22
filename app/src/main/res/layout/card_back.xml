@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/caneraFlip">
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/qrImage"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+
+        <!--android:padding="16dp"-->
+        <!--android:src="@drawable/qrcode"/>-->
+    <ImageView
+        android:id="@+id/photoImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tint="@color/black_overlay"
+        android:padding="16dp"
+        android:src="@drawable/rectangle"/>
+        android:tint="@color/cardBack"
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/back"
+        android:textColor="@color/white" />
+
+
+</FrameLayout>

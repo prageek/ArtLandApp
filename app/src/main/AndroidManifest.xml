@@ -32,7 +32,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ScanActivity"
             android:theme="@style/AppTheme.NoActionBar" />
@@ -43,9 +43,12 @@
         <activity
             android:name=".DashboardActivity"
             android:label="@string/title_activity_dashboard"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            >
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".FlipActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".SubmitActivity" />
+        <activity android:name=".PostActivity"></activity>
     </application>
 
 </manifest>

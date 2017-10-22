@@ -3,6 +3,7 @@ package com.mymakecents.artland.artland;
 import android.annotation.SuppressLint;
 import android.app.SearchManager;
 import android.content.Context;
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -74,6 +75,9 @@ public class DashboardActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+                Intent intentAdd = new Intent(DashboardActivity.this, FlipActivity.class);
+                intentAdd.putExtra("username", "michelangelo");
+                startActivity(intentAdd);
             }
         });
 
@@ -157,7 +161,7 @@ class PlaceholderFragment extends Fragment {
      */
     private static final String ARG_SECTION_NUMBER = "section_number";
 
-    private final String recyclerViewTitleText[] = {"Android", "RecyclerView", "Android List", "GridView", "ListView", "Tutorial", "Example", "CardView", "Lollipop", "Marshmallow"
+    private final String recyclerViewTitleText[] = {"Love Bird", "Bridge", "Man in Red", "Mother", "Water Lily", "House", "Example", "CardView", "Lollipop", "Marshmallow"
     };
 
     private final int recyclerViewImages[] = {

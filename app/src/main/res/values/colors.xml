@@ -6,4 +6,9 @@
     <color name="colorSplash">#1d001a</color>
 
     <color name="black_overlay">#66000000</color>
+
+    <color name="cardFront">#434850</color>
+    <color name="cardBack">#bc4c4a</color>
+    <color name="white">#ffff</color>
+
 </resources>
