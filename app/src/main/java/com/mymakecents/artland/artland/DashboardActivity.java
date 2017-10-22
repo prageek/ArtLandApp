@@ -214,43 +214,48 @@ class PlaceholderFragment extends Fragment {
                     @Override
                     public void onItemClick(View view, int i) {
                         switch (i) {
+                            //
                             case 0:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_SHORT).show();
+                                Intent postIntent = new Intent(view.getContext(), PostActivity.class);
+                                view.getContext().startActivity(postIntent);
                                 break;
                             case 1:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 2:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 3:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 4:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 5:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 6:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 7:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 8:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 9:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 10:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                             case 11:
-                                Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
+                                //Toast.makeText(view.getContext(), "position= " + i, Toast.LENGTH_LONG).show();
                                 break;
                         }
+
+
                     }
                 })
         );
